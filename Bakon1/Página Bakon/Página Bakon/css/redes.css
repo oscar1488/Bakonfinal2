@@ -1,0 +1,82 @@
+/* {
+    padding: 0%;
+    margin: 5px;
+    
+    
+}*/
+
+body {
+    background: #090B0D;
+    
+}
+
+
+
+a {
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container1 {
+    
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    
+}
+
+nav {
+    background: #F20530;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 10px 10 px 20 px rgba(170, 170, 170, 0.16);
+    box-shadow: 10px 10 px 20 px rgba(170, 170, 170, 0.16);
+
+}
+
+.imagen{
+    width: 100px;
+    
+}
+
+.card-body{
+    align-items: center;
+    justify-content: center;
+}
+
+.container m3{
+    align-items: center;
+}
+
+.card-deck{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+
+.logo {
+    padding-left: 0%;
+    width: 100px;
+
+
+}
+
+
+
+
+
+
+

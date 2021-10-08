@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="It=edge" />
+        <meta name="viewport" content="width-device-width, initial scale" />
+        <title>CLIENTES</title>
+<link rel="stylesheet" href="css/formulario.css">
+    </head>
+
+    <body>
+       <!-- <h3 class="color">CLIENTES</h3>-->
+       <div class="container">
+        <nav>
+            <img class="logo" src="Images/logoBakon.jpeg" alt="">
+            <a class="logotipo" href="#">Formulario</a>
+            <div class="enlaces">
+                <a href="index.html">Regresar</a>
+                
+               
+
+            </div>
+        </nav>
+        
+        <form action="conexion.php" method="POST">
+            <fieldset>
+                <legend class="color">Datos de nuestros clientes</legend>
+                <div class="imagenbakon"><img src="Images/Logo_opt.jpg" alt="" ></div>
+            <div class="imagenbakon1">
+                <label class="color" for="celular">Número de celular</label>
+                <input name="celular" id="celular" type="number" placeholder="Ingresa tu número celular" />
+                <br />
+                <label class="color" for="nombre">Nombre</label>
+                <input name="nombre" id="nombre" type="text" placeholder="Dinos tu nombre" />
+                <br />
+                <label class="color" for="apellido">Apellido</label>
+                <input name="apellido" id="apellido" type="text" placeholder="Dinos tu apellido" />
+                <br />
+                <label class="color" for="email">E-mail</label>
+                <input name="email" id="email" type="email" placeholder="Ingresa tu correo" />
+                <br />
+                <label class="color" for="cumpleaños">Fecha de nacimiento</label>
+                <input name="cumpleaños" id="cumpleaños" type="date" />
+            
+                <br />
+
+
+
+
+                <legend class="color">Sugerencias y opiniones</legend>
+                <label class="color" for="sugerencias">Sugerencias</label>
+                <textarea name="sugerencias"
+                    id="sugerencias" placeholder="Ayúdanos con tus comentarios"></textarea>
+                    <br>
+                    <br>
+                <input type="submit" name="enviar" value="Enviar" />
+                <input type="reset" value="Borrar" />
+                </button>
+                <br />
+                <br>
+
+                
+            </div>
+            
+                
+            </fieldset>
+
+            
+        </form>
+        
+        
+            
+
+
+    </body>
+
+    </html>

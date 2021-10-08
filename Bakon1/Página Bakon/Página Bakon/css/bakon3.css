@@ -1,0 +1,29 @@
+body {
+    background: #090B0D;
+    
+}
+
+
+
+a {
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contenedor {
+    
+    width: 100%;
+    margin: auto;
+   
+    
+}
+
+.logo {
+    padding-left: 0%;
+    width: 100px;
+
+
+}
+
+
